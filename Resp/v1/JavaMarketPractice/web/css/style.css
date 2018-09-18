@@ -1,0 +1,108 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../images/fondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.system-window{
+    background-color: #ff980096; 
+    border-style: dashed;
+    border-color: #953d04;
+}
+
+.login-window{   
+    text-align: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+  
+}
+.login-window{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    padding: 28px;
+}
+
+.login-window h1{
+    font-size: 32px;
+}
+.login-window table{
+    width: 75%;
+    margin: 10px 25px;
+}
+
+.user-window table,.user-window h1,.user-window .options{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.login-window table td, .user-window table td
+{
+    padding: 4px 5px;
+}
+
+.user-window{
+    
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto; 
+    border-radius: 36px;
+    
+}
+
+.user-window .options{
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main-title{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        
+    }
+    
+}
+@media only screen and (min-width: 767px) {
+    body{
+        
+    } 
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
